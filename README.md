@@ -8,6 +8,10 @@ With a website you can not only let people know about your presence in market, b
 
 # Tools/Software Requiment #
 ## INSTALLING VISUAL STUDIO : 
+Visual Studio Code is a source code editor developed by Microsoft for Windows, Linux and macOS. It is a super fast and lightweight Source Code Editor which can be used to view, edit, run and debug source code for applications. It is mainly used by front-end developers.
+
+Official VS Code for Windows, Linux and MAC OS can be found on [VS CODE DOWNLOAD](https://code.visualstudio.com/download)
+
 ### For Linux :
    - First, update the packages index and install the dependencies by typing:
       ```bash
@@ -28,7 +32,15 @@ With a website you can not only let people know about your presence in market, b
       sudo apt install code
       ```
       
-Now that VS Code is installed on your Ubuntu system you can launch it either from the command line by typing ```code ``` or by clicking on the VS Code icon ```bash (Activities -> Visual Studio Code). ```
+Now that VS Code is installed on your Ubuntu system you can launch it either from the command line by typing ```code ``` or by clicking on the VS Code icon ``` (Activities -> Visual Studio Code). ```
       
-         
+### For Windows :         
+Run the Downloaded VS Code installer and the software will get installed in your local machine sucessfully. The VS Code files can be found in ```C:\users\{username}\AppData\Local\Programs\Microsoft VS Code``` in the machine
+
+### For MAC OS : 
+
+ - Download Visual Studio Code for MAC
+ - Double-click on the downloaded archive to expand the contents.
+ - Drag Visual Studio Code.app to the Applications folder, making it available in the Launchpad. 
+ - Add VS Code to your Dock by right-clicking on the icon and choosing  Options  Keep in Doc.
 
