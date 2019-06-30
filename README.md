@@ -28,7 +28,7 @@ With a website you can not only let people know about your presence in market, b
       sudo apt install code
       ```
       
-Now that VS Code is installed on your Ubuntu system you can launch it either from the command line by typing ```bash code ``` or by clicking on the VS Code icon ```bash (Activities -> Visual Studio Code). ```
+Now that VS Code is installed on your Ubuntu system you can launch it either from the command line by typing ```code ``` or by clicking on the VS Code icon ```bash (Activities -> Visual Studio Code). ```
       
          
 
