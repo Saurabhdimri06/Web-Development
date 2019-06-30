@@ -8,15 +8,26 @@ With a website you can not only let people know about your presence in market, b
 
 # Tools/Software Requiment #
 ## INSTALLING VISUAL STUDIO : 
-   1. For Linux :
-      First, update the packages index and install the dependencies by typing:
+### For Linux :
+   a- First, update the packages index and install the dependencies by typing:
       ```bash
       sudo apt update
       sudo apt install software-properties-common apt-transport-https wget
       ```
-      Next, import the Microsoft GPG key using the following wget command:
+   b- Next, import the Microsoft GPG key using the following wget command:
       ```bash
       wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
       ```
+      And enable the Visual Studio Code repository by typing:
+      ```bash
+      sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+      ```
+   c- Once the repository is enabled, install the latest version of Visual Studio Code with:
+      ```bash
+      sudo apt update
+      sudo apt install code
+      ```
+Now that VS Code is installed on your Ubuntu system you can launch it either from the command line by typing ```bash code ``` or by clicking on the VS Code icon ```bash (Activities -> Visual Studio Code). ```
+      
          
 
