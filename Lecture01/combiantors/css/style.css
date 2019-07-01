@@ -1,0 +1,15 @@
+div p{
+    color: brown;
+}
+
+div > p{
+    background-color: azure;
+}
+
+div ~ p{
+    background-color: beige;
+}
+
+div + p{
+    margin:50px;
+}
