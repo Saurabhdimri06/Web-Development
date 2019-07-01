@@ -47,9 +47,8 @@ Run the Downloaded VS Code installer and the software will get installed in your
 # Contents:
 
 This repository holds the content for :
-   
-   -HTML
-   -CSS
-   -JAVASCRIPT (EmmaScript 6)
-   -Node.JS
-   -Mongo DB and PortgresDB
+ - HTML
+ - CSS
+ - JAVASCRIPT (EmmaScript 6)
+ - Node.JS
+ - Mongo DB and PortgresDB
