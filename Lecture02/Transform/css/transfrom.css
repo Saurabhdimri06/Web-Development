@@ -1,0 +1,78 @@
+/*div{
+    height: 100px;
+    width:200px;
+    background-color: mediumvioletred;
+    text-align: center;
+    margin:120px;
+}
+#div1{
+    transform: translate(150px, 150px);
+}
+
+/*#div2{transform: scale(1.5);
+    transform: translate(150px, 150px);
+}*/
+/*
+#div3{
+    transform: rotate(50deg);
+}
+
+#div4{
+    transform: skew(40deg);
+}
+
+#div5{
+    transform: rotate(-50deg) translateX(65px);
+}*/
+
+
+/*POSITIONING IN CSS - Position works with top, left, right, bottom
+It has 5 values -> static (default)
+                -> relative (the position given)
+                -> fixed (to keep the value fixed throughout the page)
+                -> sticky (stick to the position till the end of the page)
+                -> absolute (works regarding to the property of ansestors)
+*/
+div{
+    height: 200px;
+    width: 600px;
+    background-color: blue;
+    text-align: center;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+#div1{
+    position: relative;
+    top:2000px;
+    margin:10px;
+}
+
+#div2{
+     position: relative;
+    top: 1500px;
+}
+
+#div3{
+    position: fixed;
+    top: 0px;
+    right: 50px
+}
+
+#div4{
+    position: sticky;
+    left:90%;
+    top: 1px;
+}
+
+#div0{
+    position: absolute;
+    top:10px
+}
+
+#divo{
+    position:absolute;
+    top: 20px
+}
+
+
