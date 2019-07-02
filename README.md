@@ -44,3 +44,11 @@ Run the Downloaded VS Code installer and the software will get installed in your
  - Drag Visual Studio Code.app to the Applications folder, making it available in the Launchpad. 
  - Add VS Code to your Dock by right-clicking on the icon and choosing  Options  Keep in Doc.
 
+# Contents:
+
+This repository holds the content for :
+ - HTML
+ - CSS
+ - JAVASCRIPT (EmmaScript 6)
+ - Node.JS
+ - Mongo DB and PortgresDB
