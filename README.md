@@ -52,3 +52,7 @@ This repository holds the content for :
  - JAVASCRIPT (EmmaScript 6)
  - Node.JS
  - Mongo DB and PortgresDB
+
+Here HTML - 5, CSS - 3 , JavaScript (EmmaScript 6) is covered with Node.js , using NPM and using other dependencies of Node along with Express.js and a database to create a complete frontend and backend of a website
+
+Some modules are developed using Bootstrap 4 , so you can get pretty good knowledge of complete WEB DEVELOPMENT here.
