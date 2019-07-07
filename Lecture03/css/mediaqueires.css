@@ -1,0 +1,13 @@
+@media (max-width: 400px){
+    p{
+        display: none;
+    }
+}
+
+p.para{
+    color:black;
+}
+
+p.para.big{
+    color:yellow;
+}
