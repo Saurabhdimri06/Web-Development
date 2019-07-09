@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	width:800px;
+	height:800px;
+	margin: auto;
+	position: relative;
+	perspective: 600px;
+}
+.main div {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	text-align: center;
+	top:200px;
+	left: 200px;
+	background-color: crimson;
+	opacity: 0.4;
+	font-size: 30px;
+	transform-style:preserve-3d;
+}
+.back {
+	transform: translateZ(-100px);
+
+}
+
+.left {
+	transform: rotateY(90deg);
+	transform-origin: 0% 0%;
+}
+.right {
+	transform: rotateY(-90deg);
+	transform-origin: 100% 100%;
+}
+.top {
+	transform: rotateX(-90deg);
+	transform-origin: top center;
+}
+.bottom {
+	transform: rotateX(90deg);
+	transform-origin: bottom center;
+}
+div:active{
+	transform:  rotateZ(40deg) rotateX(50deg) ;
+	transform-origin: 0% 100%;
+	translate: transform 1s;
+}
