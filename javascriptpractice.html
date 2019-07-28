@@ -1,0 +1,67 @@
+<input type="text" id="text">
+<input type="button" id="clear" value="clear">
+<input type="button" id="showeven" value="show even">
+<input type="button" id="factorial" value="factorial">
+<input type="button" id="removeduplicates" value="remove duplicates">
+<input type="button" id="FizzBuzz" value="FizzBuzz">
+<p id="para"></p>
+
+
+<script>
+document.getElementById("clear").onclick = function(){
+	document.getElementById('para').innerHTML = "";
+	document.getElementById("text").value = "";
+}
+document.getElementById("showeven").onclick = function(){even(document.getElementById("text").value)};
+document.getElementById("factorial").onclick = function(){factorial(document.getElementById("text").value)};
+document.getElementById("removeduplicates").onclick = function(){removeDuplicates(document.getElementById("text").value)};
+document.getElementById("FizzBuzz").onclick = function(){fizzbuzz(document.getElementById("text").value)};
+function even(text){
+	while(text>0){
+		if(text%2==0){
+			document.getElementById('para').innerHTML=text + "<br>" + document.getElementById('para').innerHTML;
+		}
+		text--;
+	}
+}
+function factorial(text){
+	var fact=1;
+	while(text>1){
+		fact *= text;
+		text--;
+	}
+	document.getElementById('para').innerHTML="Factorial: " +fact;
+}
+function removeDuplicates(text){
+	var str;
+	var final = [];
+	var duplicate=0;
+	str=text.split(" ");
+	for (var i = 0; i < str.length; i++) {
+		duplicate=0;
+		if(i>0){
+			for (var j = 0; j < i; j++) {
+				if(str[i]==str[j]){
+					duplicate=1;
+				}
+			}
+		}
+		if (duplicate==0) {
+			final[final.length]=str[i];
+		}
+	}
+	document.getElementById('para').innerHTML=final;
+
+}
+    
+    function fizzbuzz(text){
+        var str = "";
+        for(var i=1;i<=text;i++){
+            if(i%15==0){str +="FizzBuzz"+"<br>";}
+            else if(i%3==0){str +="Fizz"+"<br>";}
+            else if(i%5==0){str +="Buzz"+"<br>";}
+            else {str += i+"<br>";}
+        }
+        document.getElementById("para").innerHTML += str;
+    }
+</script>

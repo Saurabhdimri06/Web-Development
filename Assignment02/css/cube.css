@@ -1,0 +1,55 @@
+body {
+        margin: 0;
+        padding: 0;
+}
+.main {
+        width:100px;
+        height:100px;
+        margin: auto;
+        position: relative;
+        perspective: 1000px;
+    }
+
+    .main div {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        text-align: center;
+        margin-top:250%;
+        margin-left:35%;
+        background-color: crimson;
+        opacity: 0.4;
+        font-size: 30px;
+        transform-style:preserve-3d;
+    }
+
+.back{
+    transform: translateZ(-100px);
+}
+
+.right {
+	transform: rotateY(-90deg);
+	transform-origin: 100% 100%;
+}
+
+.left{
+    transform: rotateY(90deg);
+	transform-origin: 0% 0%;
+}
+
+.top {
+	transform: rotateX(-90deg);
+	transform-origin: top center;
+}
+
+.bottom{
+    transform: rotateX(90deg);
+    transform-origin: bottom center;
+}
+
+div:active{
+    transform: rotateX(75deg);
+    transform-origin: 0% 0%;
+    translate: transform 1s;
+}

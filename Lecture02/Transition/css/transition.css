@@ -1,0 +1,23 @@
+/*div{
+    height:100px;
+    width:200px;
+    margin: 200px;
+    background-color: crimson;
+}
+
+#div1:hover{
+    transform: scale(2.5);
+    border: 2px solid black;
+    transition: transform 5s, border 2s; 
+}*/
+
+div{
+    border: 2px solid black;
+    border-left: 0px;
+    border-top:0px;
+    background-color: crimson;
+    height:100px;
+    width:200px;
+    margin: 30px;
+    box-shadow: 6px 5px 10px black;
+}
